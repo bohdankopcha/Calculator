@@ -1,38 +1,67 @@
-.App {
+body {  
+  background: #bcbd7d;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.3em;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background: rgb(73, 146, 140);
+  border-radius: 5px;
+  gap: 35%;
+}
+.num-lines {
+  text-align: right;
+  margin-right: 1.5rem;
+}
+.numbers{
+  display: inline-block;
+  text-align: center;
+  background: rgb(57, 110, 106);
+}
+.numbers button {
+  padding: 1.5rem;
+  margin: .2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+}
+.func-buttons {
+  display: inline-block;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.func-buttons button {
+  padding: 1.5rem;
+  margin: .2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.history {
+  background: rgb(73, 146, 140);
+  border-radius: 4px;
+  text-align: right;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.clear-button {
+  border-radius: 4px;
+  background-color: rgb(57, 110, 106);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  margin: .2rem;
+  border: none;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+} 
